@@ -13,6 +13,7 @@ Usage
 Features:
 
 functions.cmap1 --> Primary colour map
+
 functions.cmap2 --> Secondary colour map
 
 Demo of some of the features:
