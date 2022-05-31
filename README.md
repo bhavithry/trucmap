@@ -27,7 +27,18 @@ import trucmap
 
 from trucmap import cmap1
 
-print("TRU Color Map 1")
+cmap1()
+
+This will set the color palette of matplotlib to TRU primary colour map.
+
+cmap2()
+
+This will set the color palette of matplotlib to TRU secondary colour map used for web based applications.
+
+cmap_reset()
+
+This will reset the color palette of matplotlib to its default.
+
 
 Contributing
 
