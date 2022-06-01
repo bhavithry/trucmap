@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='bhavithry',                           # should match the package folder
+    name='trucmap',                           # should match the package folder
     packages=['trucmap'],                     # should match the package folder
     version='0.1',                                # important for updates
     license='MIT',                                  # should match your chosen license
