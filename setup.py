@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='trucmap',                           # should match the package folder
+    name='bhavithry',                           # should match the package folder
     packages=['trucmap'],                     # should match the package folder
     version='0.1',                                # important for updates
     license='MIT',                                  # should match your chosen license
     description='Testing installation of Package',
     long_description=long_description,              # loads your README.md
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
-    author='bhavithry',
+    author='Bhavithry Sen Puliparambil',
     author_email='bhavithry@gmail.com',
     url='https://github.com/bhavithry/trucmap', 
     project_urls = {                                # Optional
