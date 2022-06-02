@@ -19,7 +19,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/bhavithry/trucmap/issues"
     },
     install_requires=['matplotlib','cycler'],                  # list all packages that your package uses
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(include=['trucmap']),
     keywords=["pypi", "trucmap", "tutorial"], #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
