@@ -33,5 +33,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    download_url="https://github.com/bhavithry/trucmap/archive/refs/tags/0.1.tar.gz",
+    download_url="https://github.com/bhavithry/trucmap/archive/refs/tags/0.2.tar.gz",
 )
