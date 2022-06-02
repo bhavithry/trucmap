@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='trucmap',                           # should match the package folder
     packages=['trucmap'],                     # should match the package folder
-    version='0.3',                                # important for updates
+    version='0.4',                                # important for updates
     license='MIT',                                  # should match your chosen license
     description='Testing installation of Package',
     long_description=long_description,              # loads your README.md
@@ -34,5 +34,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    download_url="https://github.com/bhavithry/trucmap/archive/refs/tags/0.3.tar.gz",
+    download_url="https://github.com/bhavithry/trucmap/archive/refs/tags/0.4.tar.gz",
 )
