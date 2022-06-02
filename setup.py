@@ -18,7 +18,8 @@ setuptools.setup(
     project_urls = {                                # Optional
         "Bug Tracker": "https://github.com/bhavithry/trucmap/issues"
     },
-    install_requires=['matplotlib','cycler',' matplotlib.pyplot'],                  # list all packages that your package uses
+    install_requires=['matplotlib','cycler'],                  # list all packages that your package uses
+    packages=setuptools.find_packages(),
     keywords=["pypi", "trucmap", "tutorial"], #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
@@ -29,6 +30,8 @@ setuptools.setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
     download_url="https://github.com/bhavithry/trucmap/archive/refs/tags/0.1.tar.gz",
 )
